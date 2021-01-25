@@ -69,11 +69,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h8h-TX-9ix">
-                                <rect key="frame" x="0.0" y="96" width="414" height="640"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
                                 <color key="backgroundColor" name="backButton"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="oPV-W9-C77">
-                                <rect key="frame" x="10" y="106" width="394" height="620"/>
+                                <rect key="frame" x="10" y="54" width="394" height="672"/>
                                 <subviews>
                                     <searchBar contentMode="redraw" placeholder="Qual lugar você deseja ir?" translatesAutoresizingMaskIntoConstraints="NO" id="wDN-Ao-vsT">
                                         <rect key="frame" x="0.0" y="0.0" width="394" height="44"/>
@@ -83,10 +83,10 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </searchBar>
                                     <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MFc-Kt-3Ne">
-                                        <rect key="frame" x="0.0" y="50" width="394" height="404"/>
+                                        <rect key="frame" x="0.0" y="50" width="394" height="456"/>
                                     </mapView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hd0-j3-2ey">
-                                        <rect key="frame" x="0.0" y="460" width="394" height="160"/>
+                                        <rect key="frame" x="0.0" y="512" width="394" height="160"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzH-dM-88l">
                                                 <rect key="frame" x="12" y="11.999999999999998" width="370" height="26.333333333333329"/>
@@ -277,8 +277,8 @@
         <scene sceneID="VXK-89-obf">
             <objects>
                 <navigationController id="zyu-lQ-fnY" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="toc-49-HB1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="toc-49-HB1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
