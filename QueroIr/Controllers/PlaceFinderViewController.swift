@@ -28,10 +28,27 @@ class PlaceFinderViewController: UIViewController {
         txtCity.layer.cornerRadius = cornerRadiusNumber
         buttonEscolher.layer.cornerRadius = cornerRadiusNumber
     }
+    
+    func load(show: Bool) {
+        activityIndicatorLoading.isHidden = !show
+        if show {
+            activityIndicatorLoading.startAnimating()
+        } else {
+            activityIndicatorLoading.stopAnimating()
+        }
+    }
 
     
-    @IBAction func findCity(_ sender: Any) {
-        
+    @IBAction func findCity(_ sender: UIButton) {
+        txtCity.resignFirstResponder()
+        guard let address = txtCity.text else { return }
+        load(show: true)
+        let geoCoder = CLGeocoder()
+        geoCoder.geocodeAddressString(address) { (placemarks, error) in
+            self.load(show: false)
+            guard let placemark = placemarks?.first else { return }
+            print(Place.getFormattedAddress(placemark: placemark))
+        }
     }
     
     @IBAction func closeModal(_ sender: Any) {

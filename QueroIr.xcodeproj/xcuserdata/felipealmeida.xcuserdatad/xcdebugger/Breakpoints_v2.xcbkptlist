@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C6389F90-DA23-4411-86E4-3192170CFBDF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72CA2196-1D80-4E3D-B5B2-186CE3C2C193"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QueroIr/Controllers/PlaceFinderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "findCity(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "164197B4-7EB9-4570-AEBE-B5EA9D690895"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QueroIr/Controllers/PlaceFinderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "findCity(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "164197B4-7EB9-4570-AEBE-B5EA9D690895 - 5d1dac9e2c0d36cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QueroIr.PlaceFinderViewController.findCity(__C.UIButton) -&gt; ()"
+                  moduleName = "QueroIr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Backup/QueroIr/QueroIr/QueroIr/Controllers/PlaceFinderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "868">
+               </Location>
+               <Location
+                  uuid = "164197B4-7EB9-4570-AEBE-B5EA9D690895 - 7e2bfd897195dd30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.CLPlacemark&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in QueroIr.PlaceFinderViewController.findCity(__C.UIButton) -&gt; ()"
+                  moduleName = "QueroIr"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Backup/QueroIr/QueroIr/QueroIr/Controllers/PlaceFinderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "149">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

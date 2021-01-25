@@ -15,6 +15,7 @@
 		200FEE4B25BE0A1500E0D8F0 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200FEE4A25BE0A1500E0D8F0 /* PlacesTableViewController.swift */; };
 		200FEE4E25BE0AB400E0D8F0 /* PlaceFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200FEE4D25BE0AB400E0D8F0 /* PlaceFinderViewController.swift */; };
 		200FEE5725BE224300E0D8F0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200FEE5625BE224300E0D8F0 /* MapViewController.swift */; };
+		20FA7DF125BEF698000E9A87 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FA7DF025BEF698000E9A87 /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		200FEE4A25BE0A1500E0D8F0 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
 		200FEE4D25BE0AB400E0D8F0 /* PlaceFinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceFinderViewController.swift; sourceTree = "<group>"; };
 		200FEE5625BE224300E0D8F0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		20FA7DF025BEF698000E9A87 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		200FEE2F25BE037500E0D8F0 /* QueroIr */ = {
 			isa = PBXGroup;
 			children = (
+				20FA7DEF25BEF68C000E9A87 /* Models */,
 				200FEE4825BE09DF00E0D8F0 /* Views */,
 				200FEE4725BE09DB00E0D8F0 /* Controllers */,
 				200FEE4625BE09C600E0D8F0 /* Common */,
@@ -95,6 +98,14 @@
 				200FEE3625BE037500E0D8F0 /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		20FA7DEF25BEF68C000E9A87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20FA7DF025BEF698000E9A87 /* Place.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 				200FEE3125BE037500E0D8F0 /* AppDelegate.swift in Sources */,
 				200FEE3325BE037500E0D8F0 /* SceneDelegate.swift in Sources */,
 				200FEE4E25BE0AB400E0D8F0 /* PlaceFinderViewController.swift in Sources */,
+				20FA7DF125BEF698000E9A87 /* Place.swift in Sources */,
 				200FEE5725BE224300E0D8F0 /* MapViewController.swift in Sources */,
 				200FEE4B25BE0A1500E0D8F0 /* PlacesTableViewController.swift in Sources */,
 			);
