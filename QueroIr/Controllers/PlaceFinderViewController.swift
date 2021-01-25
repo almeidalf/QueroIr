@@ -10,7 +10,7 @@ import MapKit
 
 class PlaceFinderViewController: UIViewController {
     
-    let cornerRadiusNumber: CGFloat = 5.0
+    let cornerRadiusNumber: CGFloat = 8.0
     
     @IBOutlet weak var txtCity: UITextField!
     @IBOutlet weak var mapView: MKMapView!

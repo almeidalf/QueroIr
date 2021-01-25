@@ -141,7 +141,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eR6-qB-447">
-                        <barButtonItem key="backBarButtonItem" title=" " id="Oks-QB-oCY"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="KfO-r1-Ufd"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="tDJ-Tu-sdM">
                             <connections>
                                 <action selector="showSearchBar:" destination="qgo-eX-bo4" id="INE-Q3-5fJ"/>
